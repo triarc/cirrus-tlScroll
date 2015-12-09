@@ -1,10 +1,9 @@
 {
   "name": "cirrus-tlScroll",
   "version": "0.0.6",
-  "authors": [
-    "Marco Bachmann <mb@triarc-labs.com>"
+  "main": [
+    "tlScroll.js"
   ],
-  "main": "tlScroll.js",
   "moduleType": [
     "globals"
   ],

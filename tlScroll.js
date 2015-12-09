@@ -33,8 +33,7 @@ var Triarc;
                 restrict: 'A',
                 scope: {},
                 controller: [
-                    '$scope',
-                    function ($scope) {
+                    '$scope', function ($scope) {
                         $scope.horizontal = [];
                         $scope.vertical = [];
                         this.registerVerticalReceiver = function (element) {
@@ -162,8 +161,7 @@ var Triarc;
     var Scroll;
     (function (Scroll) {
         Scroll.scroll.directive('tlIsScrolling', [
-            '$parse',
-            function ($parse) {
+            '$parse', function ($parse) {
                 return {
                     restrict: 'E',
                     scope: {
